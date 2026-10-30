@@ -1,11 +1,11 @@
 {
 	"name": "Python Development",
 	"dockerComposeFile": [
-		"../devCompose.yaml",
 		"docker-compose.yml"
 	],
 	"service": "python-dev",
-	"workspaceFolder": "/app",
+	"workspaceFolder": "/workspaces/agent1",
+	"postCreateCommand": "pip install -r requirements.txt",
 	"forwardPorts": [
 		8000
 	],
