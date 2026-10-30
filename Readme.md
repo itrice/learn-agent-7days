@@ -38,7 +38,7 @@ def execute_tool(name: str, args: dict) -> str:
         return f"未知工具: {name}"
     return func(**args)
 ```
-In lession1 case, shown 模型幻觉式建议. 
+In lession1 case appeared 模型幻觉式建议. 
 - I asked a property order_id at first, then I restart my program and changed a not existed order_id. The LLM suggest that I should to change my order_id into the orginal id.
 
 ```bash
