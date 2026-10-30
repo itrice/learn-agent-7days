@@ -83,7 +83,9 @@ def execute_tool(name: str, args: dict) -> str:
 
 def run_agent(input: str):
     turns = 0
-    messages = [{"role": "user", "content": input}]
+    messages = [
+        {"role": "system", "content": "你只能依据工具返回的结果回答。如果工具说未找到，就如实告知用户未找到，不要猜测或举例其他订单号。"}, #明确约束
+        {"role": "user", "content": input}]
 
     MAX_TURNS = 5
     while turns < MAX_TURNS:
