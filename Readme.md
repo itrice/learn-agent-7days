@@ -1,4 +1,8 @@
-# Coding Agent From Scratch
+# Learning Agent From Scratch
+
+##需要准备的内容
+使用使用devcontainer 进行开发
+
 
 ## 从0搭建Agent，核心是构建一个 “LLM + 工具调用 + 循环控制” 的最小闭环。
 
