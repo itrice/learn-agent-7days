@@ -4,7 +4,7 @@
 		"docker-compose.yml"
 	],
 	"service": "python-dev",
-	"workspaceFolder": "/workspaces/my-agent-from-scratch",
+	"workspaceFolder": "/workspaces/my-agent-from-scartch",
 	"postCreateCommand": "pip install -r requirements.txt",
 	"forwardPorts": [
 		8000
