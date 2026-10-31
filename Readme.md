@@ -1,4 +1,31 @@
-# Learning Agent From Scratch
+# My Agent From Scratch
+
+I have to learn how to build my AI agent from zero to one.
+So I establish this project following my planing and learning.
+
+## The dev environment.
+develop everything in container.
+
+- devContainer: 
+    base image: python:1-3.11-bookworm
+    docker-compose
+
+- visual studio code
+
+## Roadmap
+lession1: Implimentaion a mini-agent.
+    
+    - one page code
+    - new a client, send messages and response
+    - a simple tool
+    - call LLM
+
+lession2:
+
+lession3:
+
+lession4:
+
 
 ##需要准备的内容
 使用使用devcontainer 进行开发
